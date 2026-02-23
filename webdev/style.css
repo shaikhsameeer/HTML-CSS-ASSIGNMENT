@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ccc;
+    background: #121212;
+}
+
+/* Header & Navigation */
+header {
+    background: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #999;
+}
+
+/* Hero Section */
+.hero {
+    background: #0a0a0a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #555;
+}
+
+/* Services Section */
+.services {
+    padding: 5rem 5%;
+    background: #1a1a1a;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #333;
+    background: #121212;
+    transition: border-color 0.3s ease;
+}
+
+.service-card:hover {
+    border-color: #666;
+}
+
+.service-card .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    filter: grayscale(100%);
+}
+
+.service-card h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: #999;
+}
+
+/* Technologies Section */
+.technologies {
+    padding: 5rem 5%;
+    background: #121212;
+}
+
+.technologies h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tech-item {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.tech-name {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.tech-item p {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 5rem 5%;
+    background: #1a1a1a;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    border: 1px solid #333;
+    background: #121212;
+}
+
+.portfolio-placeholder {
+    background: #333;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.portfolio-item h3 {
+    padding: 1rem 1.5rem 0.5rem;
+    color: #fff;
+}
+
+.portfolio-item p {
+    padding: 0 1.5rem 1rem;
+    color: #999;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.5rem 1.5rem 1.5rem;
+    color: #00ff9d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #fff;
+}
+
+/* Contact Section */
+.contact {
+    padding: 5rem 5%;
+    background: #121212;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #999;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.submit-button {
+    padding: 1rem 2rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #0a0a0a;
+    padding: 2rem 5%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-content p {
+    color: #999;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
