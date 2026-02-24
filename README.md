@@ -53,7 +53,7 @@ Collection of web projects from my HTML/CSS coursework.
 - 📧 sameer@email.com
 - 📍 India
 - 🔗 [GitHub](https://github.com/shaikhsameeer)
-- 🔗 [LinkedIn]((https://www.linkedin.com/in/sameer-shaikh-32a0bb388/))
+- 🔗 [LinkedIn](https://www.linkedin.com/in/sameer-shaikh-32a0bb388/)
 
 
 ---
