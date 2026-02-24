@@ -50,7 +50,7 @@ Collection of web projects from my HTML/CSS coursework.
 
 **Sameer Shaikh**
 
-- 📧 sameer@email.com
+- 📧 2025.sameers@isu.ac.in
 - 📍 India
 - 🔗 [GitHub](https://github.com/shaikhsameeer)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/sameer-shaikh-32a0bb388/)
