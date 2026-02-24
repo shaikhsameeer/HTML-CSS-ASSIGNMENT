@@ -26,7 +26,7 @@ Collection of web projects from my HTML/CSS coursework.
 | **Nursery**     | Plant nursery with nature theme 🌿      |
 | **Bookstore**   | Book recommendation cards               |
 | **Surfing**     | Surfing lessons pricing & spots         |
-| **SVG**         | Custom "biswyaa" SVG artwork            |
+| **SVG**         | Custom "sameer" SVG artwork             |
 
 ---
 
@@ -48,13 +48,13 @@ Collection of web projects from my HTML/CSS coursework.
 
 ## 👨‍💻 Author
 
-**Biswajeet Rout** (biswyaa)
+**Sameer Shaikh**
 
-- 📧 biswyaa@gmail.com
-- 📍 Navi Mumbai, India
-- 🔗 [GitHub](https://github.com/biswyaa28)
-- 🔗 [LinkedIn](https://linkedin.com/in/biswajeet-rout-881378321/)
-- 🔗 [Instagram](https://instagram.com/biswyaa/)
+- 📧 sameer@email.com
+- 📍 India
+- 🔗 [GitHub](https://github.com/sameershaikh)
+- 🔗 [LinkedIn](https://linkedin.com/in/sameershaikh/)
+- 🔗 [Instagram](https://instagram.com/sameershaikh/)
 
 ---
 

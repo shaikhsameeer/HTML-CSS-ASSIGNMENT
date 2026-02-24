@@ -51,10 +51,10 @@
         y="120"
         text-anchor="middle"
         fill="url(#gradient)"
-    >biswyaa</text>
+    >sameer</text>
 
     <!-- Outline effect -->
-    <text class="outline" x="400" y="120" text-anchor="middle">biswyaa</text>
+    <text class="outline" x="400" y="120" text-anchor="middle">sameer</text>
 
     <!-- Underline accent -->
     <line
